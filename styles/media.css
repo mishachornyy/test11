@@ -1,5 +1,8 @@
 @media screen and (max-width: 2400px){
-
+.ofline {
+        display: none;
+            
+    }
 @media screen and (max-width: 1400px)
 {
     .collection-example {
@@ -10,6 +13,10 @@
         min-height: 660px;}
     .collection-wrapper{
     min-height: 660px;}
+    .ofline {
+        display: none;
+            
+    }
     
     }
     
@@ -20,7 +27,10 @@
 .card-title, {
         font-size: 14px;}
     .card-price {
-        font-size: 14px;}
+        font-size: 14px;}.ofline {
+        display: none;
+            
+    }
 }
 
 
