@@ -12,7 +12,19 @@
     min-height: 660px;}
     
     }
-    
+    @media screen and (max-width: 1750px){
+        .card_container_copy {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 880px;
+    margin: 75px 50px;}
+    .card_copy {
+    width: 30%;
+            height: 304px;}
+        
+        
+    }   
 
 
 
@@ -109,9 +121,18 @@
 
     
 }
+    .slider {
+        display: none;
+    }
 
 
-@media screen and (max-width: 900px) {
+    @media screen and (max-width: 900px){
+.card_container_copy {
+    display:none;}
+.slider {
+    display: block;
+}
+
     .collection-wrapper {
         min-height: unset;
         flex-flow: column nowrap;
