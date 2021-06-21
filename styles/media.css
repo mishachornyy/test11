@@ -1,5 +1,10 @@
 @media screen and (max-width: 2400px){
-
+    .slider {
+        display: none
+    }
+    .header-link_copy{
+        display: none;
+    }
 @media screen and (max-width: 1400px)
 {
     .collection-example {
@@ -21,19 +26,44 @@
     margin: 75px 50px;}
     .card_copy {
     width: 30%;
-            height: 304px;}
+            height: 248px;}
         
         
     }   
 
-
+@media screen and (max-width: 1500px){
+        .collection_old-wrapper {
+        min-height: unset;
+        justify-content: center;
+        align-items: flex-start;
+        padding-bottom: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    }
+    .collection_old-wrapper {
+    min-height: unset;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 615px;
+    background-position: left bottom;
+    background-size: 100% 604px;
+    }
+    
+    .collection_old-content-wrapper {
+    width: 100%;
+    }
+           footer {
+        background: url(../assets/bg-footer.png) center;
+        background-size: auto;
+        padding: 0 20px;
+    }
+    }
+    
+    
 
 @media screen and (max-width: 1275px){
-.card-title, {
-        font-size: 14px;}
-    .card-price {
-        font-size: 14px;}
-}
+
 
 
     .ofline { display:  none}
@@ -78,12 +108,9 @@
 
    
 
-    .card_container {
-        display: none;
-    }
-
+ 
     .card-wrapper hr {
-        margin: 0;
+        margin: 0 0 30px 0;
     }
 
     footer {
@@ -92,7 +119,7 @@
 
     .footer-content {
         padding-top: 0;
-        max-width: 800px;
+        max-width: 872px;
     }
 
     .magazine {
@@ -120,19 +147,55 @@
         font-size: 14px;}
 
     
-}
+
     .slider {
         display: none;
+    }
+    .card {
+        max-width: 230px;}
+    }
+
+    
+     @media screen and (max-width: 1000px){
+      .card {
+        max-width: 200px;}
     }
 
 
     @media screen and (max-width: 900px){
-.card_container_copy {
+
+        
+        .magazine h5 {
+        text-align: center;
+    }
+
+        .footer-content {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+            flex-flow: column nowrap;}
+        .card_container_copy {
     display:none;}
 .slider {
     display: block;
 }
-
+            footer {
+        background: url(../assets/bg-footer.png) center;
+        background-size: auto;
+        padding: 0 20px;
+    }
+        .brand {
+            width: 190px;}
+        
+        .card-block {
+    height: 290px;
+        }
+        .collection-wrapper {
+    width: 100%;
+    justify-content: center;
+          display: block; 
+        }
     .collection-wrapper {
         min-height: unset;
         flex-flow: column nowrap;
@@ -147,7 +210,10 @@
         flex-flow: column nowrap;
     }
 
-
+.magazine {
+    width: 428px;
+    height: 183px;
+}
     .collection-example {
         min-height: unset;
         width: 100%;
@@ -217,7 +283,7 @@
 
     .footer-content {
         padding-top: 0;
-        max-width: 570px;
+        max-width: 677px;
 
     }
 
@@ -231,7 +297,9 @@
     }
 
     .magazine p {
-        font-size: 11px
+        font-size: 11px;
+         text-align: center;
+        max-width: 100%;
     }
 
     .tag {
@@ -244,10 +312,14 @@
         font-size: 14px;
     }
 
-    .block {
-        width: 190px;
-        height: 28px;
-    }
+  .block {
+    width: 295px;
+    height: 28px;
+}
+                
+        .card_container {
+            display: none;
+        }
 }
 
 @media only screen and (max-width: 768px) {
@@ -302,7 +374,7 @@
         padding-top: 100px;
     }
      .brand  {
-        width: 257px;
+        width: 254px;
     }
     
 }
@@ -315,7 +387,7 @@
         margin: 0 38px;
 }
 .block {
-    width: 165px;
+    width: 295px;
     height: 28px;
 }
    .box {
@@ -357,7 +429,19 @@
     }
 
 }
+    
+    @media only screen and (max-width: 508px){
+.brand { 
+    width: 205px;}
+        .magazine {
+            width: 290px;}
+        .block {
+            width: 158px;}
+    }
 
+    
+    
+    
 @media screen and (max-width: 488px) {
     .collection_old-content h5 {
         font-size: 30px;
@@ -417,4 +501,8 @@
     }
 
 
+}
+
+.collection_old-wrapper {
+    
 }

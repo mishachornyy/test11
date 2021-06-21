@@ -7,6 +7,12 @@
     /* IE and Edge */
     scrollbar-width: none;
     box-sizing: border-box;
+    input::placeholder {
+   background: #969696;
+
+  font-size: 1.2em;
+  font-style: italic;
+}
 
 }
 
@@ -19,6 +25,7 @@ body {
     width: 100%;
     min-height: 100vh;
     overflow: hidden scroll;
+            background: var(--color-black);
 }
 
 .container {
@@ -228,7 +235,7 @@ background: url(../assets/bg-hero-block.png) center/cover;
 
 .card-block {
     width: 100%;
-    height: 271px;
+    height: 325px;
     padding: 55px 22px;
     display: flex;
     justify-content: center;
@@ -639,7 +646,8 @@ footer {
     position: relative;
     width: 100%;
     height: 2px;
-    background-color: #616161;
+    background-color: #FFFFFF;
+
     transition-duration: .25s;
 }
 

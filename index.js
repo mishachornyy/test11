@@ -3,7 +3,11 @@ const swiper1 = new Swiper(".mySwiper1", {
   autoplay: {
     delay: 3000,
     disableOnInteraction: true,
+      
   },
+    
+
+
   slidesPerView: 3,
 
   breakpoints: {
@@ -61,6 +65,7 @@ const swiper1 = new Swiper(".mySwiper1", {
       slidesPerView: 3,
     },
   },
+    
 });
 
 const swiper2 = new Swiper(".mySwiper2", {
